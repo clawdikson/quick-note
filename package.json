@@ -1,0 +1,23 @@
+{
+  "name": "quick-note",
+  "version": "1.0.0",
+  "description": "Lightning-fast thought capture CLI for developers",
+  "main": "quick-note",
+  "bin": {
+    "qn": "./quick-note",
+    "quick-note": "./quick-note"
+  },
+  "scripts": {
+    "start": "node quick-note"
+  },
+  "keywords": ["notes", "cli", "productivity", "developer-tools", "thought-capture"],
+  "author": "clawdikson",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clawdikson/quick-note.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
